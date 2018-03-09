@@ -1,0 +1,29 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+ * {
+     font-family: 'Roboto Mono', monospace;
+     padding: 0px;
+     margin: 0px;
+ }
+#flexContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#flexContainer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#whatToDo{
+    font-size: 2em;
+}
+#txt{
+    font-size: 10em;
+}
+
