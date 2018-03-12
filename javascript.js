@@ -12,27 +12,27 @@ function startTime() {
     document.getElementById('txt').innerHTML = h + ":" + m + ":" + s;
     var t = setTimeout(startTime, 500);
     if (h >= 7 && h <= 9) {
-        document.getElementById("flexContainer").style.backgroundColor = 'lightblue';
+        document.getElementById("flexContainer").style.backgroundColor = '#83EAE2';
         document.getElementById("whatToDo").innerHTML = 'Good morning rise and shine';
     }
     else if (h >= 10 && h <= 12) {
-        document.getElementById("flexContainer").style.backgroundColor = 'lightgreen';
+        document.getElementById("flexContainer").style.backgroundColor = '#30232F';
         document.getElementById("whatToDo").innerHTML = 'you just gotta go to work work work work work';
     }
     else if (h >= 13 && h <= 14) {
-        document.getElementById("flexContainer").style.backgroundColor = ' darkblue';
+        document.getElementById("flexContainer").style.backgroundColor = ' #373B47';
         document.getElementById("whatToDo").innerHTML = 'have a nice break';
     }
     else if (h >= 15 && h <= 18) {
-        document.getElementById("flexContainer").style.backgroundColor = 'orange';
+        document.getElementById("flexContainer").style.backgroundColor = '#59838C';
         document.getElementById("whatToDo").innerHTML = 'Work work work work work';
     }
     else if (h >= 19 && h <= 23) {
-        document.getElementById("flexContainer").style.backgroundColor = 'purple';
+        document.getElementById("flexContainer").style.backgroundColor = '#71E5F4';
         document.getElementById("whatToDo").innerHTML = 'Night life ';
     }
     else {
-        document.getElementById("flexContainer").style.backgroundColor = 'blue';
+        document.getElementById("flexContainer").style.backgroundColor = '#191323';
         document.getElementById("whatToDo").innerHTML = 'Good Night zzzzz';
     }
 }
