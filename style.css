@@ -1,16 +1,30 @@
- @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
- * {
-     font-family: 'Roboto Mono', monospace;
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Fugaz+One|Patua+One|Paytone+One');
+/*
+font-family: 'Patua One', cursive;
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'Fugaz One', cursive;
+font-family: 'Paytone One', sans-serif;
+*/
+* {
      padding: 0px;
      margin: 0px;
+font-family: 'Fugaz One', cursive;
+color: black;
  }
 #Antwoord{
+    
     display: block;
     margin-top:50px;
-    color: white;
+    color: black;
     font-variant: small-caps;
     font-size: 2em;
     width: 70%;
+    position: absolute;
+   justify-content: center;
+    left: 15%;
+    right:15%;
+    text-align: center;
+    top: -500px
    
 }
 
@@ -21,6 +35,7 @@
     flex-direction: column;
     align-items: center;
     height: 100vh;
+    background-size: cover;
 
 }
 
@@ -28,29 +43,42 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
 }
 #whatToDo{
-    font-size: 2em;
+    font-size: 3em;
 }
 #txt{
     font-size: 10em;
+    font-family: 'Paytone One', sans-serif;
+
 }
 #watDoen{
     background-color: transparent;
-    border: 3px solid white;
+    border: 3px solid black;
+    border-radius: 55px;
     padding:30px;
-    font-size: 2em;
-    color:white;
+    font-size: 1.4em;
+    color:black;
     
 }
 #watDoen:hover{
-   background-color: white;
-    color: black;
+   background-color: black;
+    color: white;
     
 }
 #watDoen:active{
    background-color: transparent;
-    color: black;
+    color: white;
     
+}
+@media only screen and (max-width: 600px) {
+#txt{
+    font-size: 2em;
+}
+#whatToDo{
+    font-size: 1em;
+}
+#watDoen{
+    font-size:1em; 
 }
