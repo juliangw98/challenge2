@@ -10,12 +10,12 @@ font-family: 'Paytone One', sans-serif;
      margin: 0px;
 font-family: 'Fugaz One', cursive;
 color: black;
+color: white;
  }
 #Antwoord{
     
     display: block;
     margin-top:50px;
-    color: black;
     font-variant: small-caps;
     width: 70%;
     position: absolute;
@@ -42,7 +42,6 @@ color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
 }
 #whatToDo{
     font-size: 3em;
@@ -54,21 +53,21 @@ color: black;
 }
 #watDoen{
     background-color: transparent;
-    border: 3px solid black;
+    border: 3px solid white;
     border-radius: 55px;
     padding:30px;
     font-size: 1.4em;
-    color:black;
+    color:white;
     
 }
 #watDoen:hover{
-   background-color: black;
-    color: white;
+   background-color: white;
+    color: black;
     
 }
 #watDoen:active{
    background-color: transparent;
-    color: white;
+    color: black;
     
 }
 @media only screen and (max-width: 600px) {
