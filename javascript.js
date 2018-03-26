@@ -62,33 +62,33 @@ function doWhat() {
     if (h >= 7 && h <= 9) {
         document.getElementById('Antwoord').innerHTML = 'neem een kop koffie en ontbijt!';
         TweenMax.to('#Antwoord',2,{
-            top:500
+            top:600
         });
     } else if (h >= 10 && h <= 12) {
         document.getElementById('Antwoord').innerHTML = 'doe wat extra werk misschien krijg je wel opslag van je baas!';
         TweenMax.to('#Antwoord',2,{
-                top:500
+                top:600
         })
     } else if (h >= 13 && h <= 14) {
         document.getElementById('Antwoord').innerHTML = 'even genoeg gedaan op werk kijk hoe het gaat met je laatste insta post';
         TweenMax.to('#Antwoord',2,{
-            top:500
+            top:600
         })
     } else if (h >= 15 && h <= 18) {
                 document.getElementById('Antwoord').innerHTML = 'nog even doorzeten h is bijna 6 uur';
 
                 TweenMax.to('#Antwoord',2,{
-            top:500
+            top:600
         })
     } else if (h >= 19 && h <= 23) {
         document.getElementById('Antwoord').innerHTML = 'kijk een film';
         TweenMax.to('#Antwoord',2,{
-            top:500
+            top:600
         })
     } else {
         document.getElementById('Antwoord').innerHTML = 'Beste tijd om te gaan tukken. maar als je wakker blijft, het is happy hour bij de bar !Go Party!!!! ' ;
         TweenMax.to('#Antwoord',2,{
-            top:500
+            top:600
         })
     }
 }
